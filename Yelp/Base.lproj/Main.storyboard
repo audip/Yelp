@@ -72,8 +72,8 @@
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="88 Division St, Mission Bay" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="svV-Dj-1SQ">
-                                                    <rect key="frame" x="81" y="49" width="164" height="16"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="88 Division St, Mission Bay" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="svV-Dj-1SQ">
+                                                    <rect key="frame" x="81" y="49" width="231" height="16"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -83,6 +83,7 @@
                                                 <constraint firstItem="AV1-mM-yIb" firstAttribute="top" secondItem="PqU-lY-7Uj" secondAttribute="top" constant="8" id="2VY-Dg-mz9"/>
                                                 <constraint firstItem="zoX-2X-9d1" firstAttribute="leading" secondItem="mn0-yf-nNd" secondAttribute="trailing" constant="5" id="3OQ-Wb-rkv"/>
                                                 <constraint firstAttribute="trailing" secondItem="uEv-cN-SN0" secondAttribute="trailing" constant="8" id="A3M-Ca-8Ob"/>
+                                                <constraint firstAttribute="trailing" secondItem="svV-Dj-1SQ" secondAttribute="trailing" constant="8" id="AW0-c6-kUm"/>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Vsl-RK-SrM" secondAttribute="bottom" constant="12" id="D4F-HF-njm"/>
                                                 <constraint firstItem="uEv-cN-SN0" firstAttribute="top" secondItem="PqU-lY-7Uj" secondAttribute="top" constant="9" id="Dc5-ct-Xay"/>
                                                 <constraint firstItem="AV1-mM-yIb" firstAttribute="leading" secondItem="Phn-Pw-05x" secondAttribute="trailing" constant="8" id="GkK-Zn-9LJ"/>
