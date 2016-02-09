@@ -72,6 +72,15 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="addressLabel" destination="svV-Dj-1SQ" id="hQF-Jv-FKq"/>
+                                            <outlet property="categoriesLabel" destination="Vsl-RK-SrM" id="iv5-0e-bjC"/>
+                                            <outlet property="distanceLabel" destination="uEv-cN-SN0" id="O2h-Xu-jj5"/>
+                                            <outlet property="nameLabel" destination="AV1-mM-yIb" id="0cB-yQ-XK7"/>
+                                            <outlet property="ratingImageView" destination="mn0-yf-nNd" id="p4i-05-h5A"/>
+                                            <outlet property="reviewsCountLabel" destination="zoX-2X-9d1" id="5AM-f1-VOs"/>
+                                            <outlet property="thumbImageView" destination="Phn-Pw-05x" id="P5q-kU-rjk"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -84,6 +93,9 @@
                             <constraint firstItem="ydw-54-6KM" firstAttribute="leading" secondItem="XhR-oz-92f" secondAttribute="leading" id="smU-up-lOm"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="ydw-54-6KM" id="o59-Ca-HTr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fgb-4b-F1b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

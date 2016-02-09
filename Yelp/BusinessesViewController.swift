@@ -8,12 +8,17 @@
 
 import UIKit
 
-class BusinessesViewController: UIViewController {
+class BusinessesViewController: UIViewController, UITableViewDataSource, UITabBarDelegate {
 
+    @IBOutlet weak var tableView: UITableView!
+    
     var businesses: [Business]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tableView.dataSource = self
+        tableView.delegate = self
 
         Business.searchWithTerm("Thai", completion: { (businesses: [Business]!, error: NSError!) -> Void in
             self.businesses = businesses
