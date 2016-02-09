@@ -3,7 +3,7 @@
 //  Yelp
 //
 //  Created by Aditya Purandare on 08/02/16.
-//  Copyright © 2016 Timothy Lee. All rights reserved.
+//  Copyright © 2016 Aditya Purandare. All rights reserved.
 //
 
 import UIKit
@@ -18,6 +18,17 @@ class BusinessCell: UITableViewCell {
     @IBOutlet weak var addressLabel: UILabel!
     @IBOutlet weak var categoriesLabel: UILabel!
     
+    var business: Business! {
+        didSet {
+            nameLabel.text = business.name
+            thumbImageView.setImageWithURL(business.imageURL!)
+            distanceLabel.text = business.distance
+            ratingImageView.setImageWithURL(business.ratingImageURL!)
+            reviewsCountLabel.text = " \(business.reviewCount!) Reviews"
+            addressLabel.text = business.address
+            categoriesLabel.text = business.categories
+        }
+    }
     
     override func awakeFromNib() {
         super.awakeFromNib()

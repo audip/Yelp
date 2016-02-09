@@ -2,8 +2,8 @@
 //  YelpClient.swift
 //  Yelp
 //
-//  Created by Timothy Lee on 9/19/14.
-//  Copyright (c) 2014 Timothy Lee. All rights reserved.
+//  Created by Aditya Purandare on 9/19/14.
+//  Copyright (c) 2014 Aditya Purandare. All rights reserved.
 //
 
 import UIKit
