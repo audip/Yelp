@@ -34,7 +34,7 @@ class BusinessesViewController: UIViewController, UITableViewDataSource, UITable
         // you just need to set the titleView to be the search bar
         navigationItem.titleView = searchBar
         
-        self.automaticallyAdjustsScrollViewInsets = false
+//        self.automaticallyAdjustsScrollViewInsets = false
         
         Business.searchWithTerm("Thai", completion: { (businesses: [Business]!, error: NSError!) -> Void in
             self.businesses = businesses
