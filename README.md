@@ -15,30 +15,26 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 - [x] Search results page
-- [ ] Infinite scroll for restaurant results.
+- [x] Infinite scroll for restaurant results.
 - [ ] Implement map view of restaurant results.
 - [ ] Implement the restaurant detail page.
 
-The following **additional** features are implemented:
-
-- [ ] List anything else that you can get done to improve the app functionality!
-
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1.
-2.
+1. How to remove space before table cells
+2. Using offset to load new restaurant data
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/RgVPG2t.gif' title='Yelp App Video Walkthrough' width='' alt='Yelp App Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Space coming up before table cells begin, unable to fix it
 
 ## License
 
