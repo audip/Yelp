@@ -139,6 +139,67 @@
             </objects>
             <point key="canvasLocation" x="1344" y="338"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="hX9-Aq-BNV">
+            <objects>
+                <viewController id="gae-1B-rWi" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="a35-DN-Y7X"/>
+                        <viewControllerLayoutGuide type="bottom" id="5dr-Ag-EK3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="c9X-X8-luX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7Jt-Ql-sUc">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="D7C-Ie-R4j" customClass="SwitchCell" customModule="Yelp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="D7C-Ie-R4j" id="AsN-4k-ENI">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wAb-ya-be0">
+                                                    <rect key="frame" x="20" y="11" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1SF-Fv-8fe">
+                                                    <rect key="frame" x="257" y="6" width="51" height="31"/>
+                                                </switch>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="1SF-Fv-8fe" secondAttribute="trailing" constant="14" id="MPn-ta-XrA"/>
+                                                <constraint firstItem="wAb-ya-be0" firstAttribute="leading" secondItem="AsN-4k-ENI" secondAttribute="leading" constant="20" id="bRA-DN-55P"/>
+                                                <constraint firstItem="1SF-Fv-8fe" firstAttribute="centerY" secondItem="AsN-4k-ENI" secondAttribute="centerY" id="dWv-ff-czv"/>
+                                                <constraint firstItem="wAb-ya-be0" firstAttribute="centerY" secondItem="AsN-4k-ENI" secondAttribute="centerY" id="fX2-0D-cSQ"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="onSwitch" destination="1SF-Fv-8fe" id="7VC-K2-Zuz"/>
+                                            <outlet property="switchLabel" destination="wAb-ya-be0" id="Dcs-Z5-pYJ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="7Jt-Ql-sUc" secondAttribute="trailing" id="aeK-nM-cnJ"/>
+                            <constraint firstItem="7Jt-Ql-sUc" firstAttribute="leading" secondItem="c9X-X8-luX" secondAttribute="leading" id="lcV-zT-zUa"/>
+                            <constraint firstItem="5dr-Ag-EK3" firstAttribute="top" secondItem="7Jt-Ql-sUc" secondAttribute="bottom" id="qi2-mQ-mmJ"/>
+                            <constraint firstItem="7Jt-Ql-sUc" firstAttribute="top" secondItem="c9X-X8-luX" secondAttribute="top" id="tNt-e7-t5z"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gww-l3-dsd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1715" y="338"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="s0g-3k-eln">
             <objects>
