@@ -1,5 +1,7 @@
 # Project 3 - *Yelp*
 
+<img src="https://github.com/audip/Yelp/blob/master/AppIcon.png" width="150" height="150" alt="Yelp App Icon" />
+
 **Yelp** is a search app using the [Yelp API](http://www.yelp.com/developers/documentation/v2/search_api).
 
 Time spent: **7** hours spent in total
