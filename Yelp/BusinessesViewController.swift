@@ -138,7 +138,7 @@ class BusinessesViewController: UIViewController, UITableViewDataSource, UITable
     func loadMoreData() {
         
         Business.searchWithTerm( "Thai", offset: 20, completion: { (businesses: [Business]!, error: NSError!) -> Void in
-            self.businesses = businesses
+            self.businesses.appendContentsOf(businesses)
             self.filteredData = self.businesses
             
             self.isMoreDataLoading = false
